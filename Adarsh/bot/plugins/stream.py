@@ -24,7 +24,7 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 async def login_handler(c: Client, m: Message):
     try:
         try:
-            ag = await m.reply_text("Now send me password.\n\n for 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 send  𝙵𝚁𝙴𝙴 𝙳𝙼 @Farooq_is_KING  \n\n (for running bot need contributions..unwanted message = ban + report)")
+            ag = await m.reply_text("Now send me password.\n\n for 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 send  𝙵𝚁𝙴𝙴 𝙳𝙼 @GUARDIANff \n\n (for running bot need contributions..unwanted message = ban + report)")
             _text = await c.listen(m.chat.id, filters=filters.text, timeout=90)
             if _text.text:
                 textp = _text.text
@@ -50,7 +50,7 @@ async def private_receive_handler(c: Client, m: Message):
     if MY_PASS:
         check_pass = await pass_db.get_user_pass(m.chat.id)
         if check_pass== None:
-            await m.reply_text("ʟᴏɢɪɴ ғɪʀsᴛ ᴜsɪɴɢ /login ᴄᴍᴅ(ᴛʏᴘᴇ /login)  \n\n for 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 send  𝙵𝚁𝙴𝙴 𝙳𝙼 @Farooq_is_KING \n\n (for running bot need contributions..unwanted message = ban + report)")
+            await m.reply_text("ʟᴏɢɪɴ ғɪʀsᴛ ᴜsɪɴɢ /login ᴄᴍᴅ(ᴛʏᴘᴇ /login)  \n\n for 𝙿𝙰𝚂𝚂𝚆𝙾𝚁𝙳 send  𝙵𝚁𝙴𝙴 𝙳𝙼 @GUARDIANff \n\n (for running bot need contributions..unwanted message = ban + report)")
             return
         if check_pass != MY_PASS:
             await pass_db.delete_user(m.chat.id)
@@ -112,7 +112,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>⚽️ ᴡᴀʏᴄʜ ᴏɴʟɪɴᴇ :- </b> <i><b>{}</b></i>
 
-<b>🌹 ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛs ᴇxᴘɪʀᴇᴅ 🌹\n\n@Opleech</b>"""
+<b>🌹 ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛs ᴇxᴘɪʀᴇᴅ 🌹\n\n© @AM_FILMS</b>"""
 
         await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, quote=True)
         await m.reply_text(
