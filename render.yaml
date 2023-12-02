@@ -1,11 +1,11 @@
 services:
   - type: web
     plan: free
-    name: Opfile2Link-BOT
+    name: file2Link-BOT
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 -m Adarsh
-    repo: https://github.com/SudoR2spr/Opfile2Link-BOT.git      
+    repo: https://github.com/Guardianff/Opfile2Link-BOT.git      
     branch: main
     envVars:
       - key: BOT_TOKEN 
