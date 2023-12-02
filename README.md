@@ -2,6 +2,17 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/SudoR2spr/Opfile2Link-BOT?color=green)
 ![GitHub](https://img.shields.io/github/license/SudoR2spr/Opfile2Link-BOT?color=green)
 
+### Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudoR2spr/Opfile2Link-BOT)
+
+### Deploy on Render
+
+Press the button and make ytml folder and deploy on Render
+
+<a href="https://render.com/deploy?repo=https://github.com/SudoR2spr/Opfile2Link-BOT">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
 
 <h1 align="center"></h1>
 <p align="center"> 
