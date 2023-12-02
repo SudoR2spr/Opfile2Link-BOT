@@ -60,9 +60,9 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...❣️\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("WD-Rules ❣️", url="https://t.me/WOODcraft_Mirror_Zone"), InlineKeyboardButton("𝙲hannels 🥀", url="https://t.me/Opleech")],
-                    [InlineKeyboardButton("𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/WOODcraft_Mirror_Zone"), InlineKeyboardButton("💎 Bypass bot", url="https://t.me/OpLink_bypass_bot")],
-                    [InlineKeyboardButton("🥀 Group 🥀", url="https://t.me/WD_Topic_Group")]
+                    [InlineKeyboardButton("WD-Rules ❣️", url="https://t.me/am_films"), InlineKeyboardButton("𝙲hannels 🥀", url="https://t.me/am_films")],
+                    [InlineKeyboardButton("𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/am_films"), InlineKeyboardButton("💎 Bypass bot", url="https://t.me/am_films")],
+                    [InlineKeyboardButton("🥀 Group 🥀", url="https://t.me/am_films")]
                 ]
             ),
             
@@ -123,7 +123,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...❣️\n\n⚽️ ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n⚽️ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n🌹 ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ 🌹\n\n@Opleech**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...❣️\n\n⚽️ ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n⚽️ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n🌹 ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ 🌹\n\n© @AM_FILMS**"
         await m.reply_photo(
             photo="https://te.legra.ph/file/e9c87ad0b805862cd73a5.jpg",
             caption=msg_text.format(file_name, file_size, stream_link),
@@ -178,9 +178,9 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("WD-Rules ❣️", url="https://t.me/WOODcraft_Mirror_Zone"), InlineKeyboardButton("𝙲hannels 🥀", url="https://t.me/Opleech")],
-                [InlineKeyboardButton("𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/WOODcraft_Mirror_Zone"), InlineKeyboardButton("💎 Bypass bot", url="https://t.me/OpLink_bypass_bot")],
-                [InlineKeyboardButton("🥀 Group 🥀", url="https://t.me/WD_Topic_Group")]
+                [InlineKeyboardButton("WD-Rules ❣️", url="https://t.me/am_films"), InlineKeyboardButton("𝙲hannels 🥀", url="https://t.me/am_films")],
+                [InlineKeyboardButton("𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/am_films"), InlineKeyboardButton("💎 Bypass bot", url="https://t.me/am_films")],
+                [InlineKeyboardButton("🥀 Group 🥀", url="https://t.me/am_films")]
             ]
         )
     )
@@ -230,22 +230,22 @@ async def about_handler(bot, message):
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>WD-Rules ❣️ : <a href='https://t.me/WOODcraft_Mirror_Zone'>Rules</a></b>
-┣⪼<b>ᴄᴏɴᴛᴀᴄᴛ : <a href='https://t.me/Farooq_is_KING'>WOODcraft</a></b>
-┣⪼<b>Bypass bot : <a href='https://t.me/OpLink_bypass_bot'>Bypasser ʙᴏᴛ</a></b>
+┣⪼<b>WD-Rules ❣️ : <a href='https://t.me/am_films'>Rules</a></b>
+┣⪼<b>ᴄᴏɴᴛᴀᴄᴛ : <a href='https://t.me/GUARDIANff'>GUARDIANff</a></b>
+┣⪼<b>Bypass bot : <a href='https://t.me/am_films'>𝗔𝗠_𝗙𝗜𝗟𝗠𝗦</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>SED-ᴄᴏᴅᴇ : <a href='https://t.me/Opleech'>Mirror Zone</a></b>
-┣⪼<b>𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/WD_Topic_Group'>Topic</a></b>
+┣⪼<b>SED-ᴄᴏᴅᴇ : <a href='https://t.me/am_films'>Mirror Zone</a></b>
+┣⪼<b>𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/am_films'>Topic</a></b>
 ┃
 <b>╰━━━━━━━〔Sed sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿 ⚡", url="https://t.me/WD_Topic_Group"), InlineKeyboardButton("🌹 𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/WOODcraft_Mirror_Zone")],
-                [InlineKeyboardButton("💎 Bypass bot", url="https://t.me/OpLink_bypass_bot")]
+                [InlineKeyboardButton("𝙶𝚁𝙾𝚄𝙿 ⚡", url="https://t.me/WD_Topic_Group"), InlineKeyboardButton("🌹 𝐖𝐃 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐞𝐬", url="https://t.me/am_films")],
+                [InlineKeyboardButton("💎 Bypass bot", url="https://t.me/am_films")]
             ]
         )
     )
