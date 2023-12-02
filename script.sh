@@ -1,0 +1,1 @@
+apt-get install python3 -y && apt-get install virtualenv -y && apt-get install git -y && git clone https://github.com/SudoR2spr/Opfile2Link-BOT && cd Opfile2Link-BOT && virtualenv -p /usr/bin/python3 venv && . ./venv/bin/activate && pip install -r requirements.txt && python3 cli.py && python3 -m Adarsh
