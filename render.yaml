@@ -20,12 +20,14 @@ services:
         sync: false
       - key: OWNER_USERNAME
         sync: false
-      - key: BANNED_CHANNELS
+      - key: MY_PASS
         sync: false
       - key: OWNER_ID
         sync: false
       - key: DATABASE_URL
         sync: false
+      - key: PORT
+        sync: false
       - key: FQDN
         sync: false
-    autoDeploy: false
+    autoDeploy: true
